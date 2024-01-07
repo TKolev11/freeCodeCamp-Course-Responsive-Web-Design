@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us get the information we need</p>
+        </header>
+        <form id="survey-form">
+
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" required placeholder="Enter your name" />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email </label>
+                <input id="email" type="email" required placeholder="Enter your email" />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age <span>(optional)</span></label>
+                <input id="number" type="number" min="14" max="120" placeholder="Age" />
+            </div>
+
+            <div class="form-group">
+                <p class="p-control"> Previous experience?</p>
+                <select id="dropdown">
+                    <option value="">Select</option>
+                    <option value="1">Intern Developer</option>
+                    <option value="2">Junior Developer</option>
+                    <option value="3">Middle Developer</option>
+                    <option value="4">Senior Developer</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p class="p-control">Is there a decline in job demand in your opinion?</p>
+                <label class="label-inputs"><input class="input-radio" type="radio" value="yes" name="question-answer"
+                        checked />Yes</label>
+                <label class="label-inputs"><input class="input-radio" type="radio" value="no"
+                        name="question-answer" />No</label>
+                <label class="label-inputs"><input class="input-radio" type="radio" value="not-noticed"
+                        name="question-answer" />I have not
+                    noticed</label>
+            </div>
+            <div class="form-group">
+                <p class="p-control">What position you are looking for?</p>
+                <label class="label-inputs">
+                    <input class="input-checkbox" value=".net" type="checkbox" />.NET Developer
+                </label>
+                <label class="label-inputs">
+                    <input class="input-checkbox" value="js" type="checkbox" />JavaScript Developer
+                </label>
+                <label class="label-inputs">
+                    <input class="input-checkbox" value="python" type="checkbox" />.Python Developer
+                </label>
+                <label class="label-inputs">
+                    <input class="input-checkbox" value="java" type="checkbox" />.Java Developer
+                </label>
+            </div>
+            <div class="form-group">
+                <p class="p-control">Any comments or suggestions?</p>
+                <textarea></textarea>
+            </div>
+            <input type="submit" id="submit" />
+        </form>
+    </div>
+</body>
+
+</html>
