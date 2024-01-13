@@ -10,11 +10,16 @@ img {
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     font-size: 16px;
+    color: #333;
 }
 
 
 h3 {
     text-align: center;
+}
+
+#wiki-header {
+    margin-top: 30px;
 }
 
 #img-div {
@@ -25,7 +30,9 @@ h3 {
 #title {
     text-align: center;
     font-size: 4rem;
+    margin-top: 10px;
     margin-bottom: 0;
+
 }
 
 #headline {
@@ -39,6 +46,7 @@ h3 {
     border-radius: 5px;
     background: #eee;
 }
+
 
 li {
     margin: 16px 0;
