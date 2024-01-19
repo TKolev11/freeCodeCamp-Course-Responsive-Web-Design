@@ -59,3 +59,27 @@ body {
 .main-section header {
     font-size: 1.8em;
 }
+
+article li {
+    margin: 5px 0px 0px 25px;
+}
+
+p {
+    margin-left: 15px;
+}
+
+code {
+    background-color: #FFFFCC;
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {}
